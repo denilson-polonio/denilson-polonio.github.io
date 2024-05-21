@@ -40,7 +40,7 @@ function switchTheme(e) {
     document.documentElement.setAttribute("data-theme", "dark");
     localStorage.setItem("theme", "dark"); //add this
   } else {
-    document.documentElement.setAttribute("data-theme", "light");
+    document.documentElement.setAttribute("data-theme", "dark");
     localStorage.setItem("theme", "dark"); //add this
   }
 }
